@@ -1,6 +1,8 @@
-package com.qnenet;
+package com.qnenet.quickneasy;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
+import com.vaadin.flow.component.page.Push;
+import com.vaadin.flow.server.PWA;
 import com.vaadin.flow.theme.Theme;
 import com.vaadin.flow.theme.lumo.Lumo;
 import org.springframework.boot.SpringApplication;
@@ -13,12 +15,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * and some desktop browsers.
  *
  */
+@Push
 @SpringBootApplication
-@Theme(value = "quickneasycore", variant = Lumo.DARK)
-public class Application implements AppShellConfigurator {
+@Theme(value = "qne", variant = Lumo.DARK)
+@PWA(name = "QuickNEasy", shortName = "QNE", offlinePath = "offline.html", offlineResources = {
+        "images/offline.png" })
+public class QuickNEasyApp implements AppShellConfigurator {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(QuickNEasyApp.class, args);
     }
 
 }

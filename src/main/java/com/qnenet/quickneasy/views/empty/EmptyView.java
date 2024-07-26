@@ -1,6 +1,6 @@
-package com.qnenet.views.empty;
+package com.qnenet.quickneasy.views.empty;
 
-import com.qnenet.views.MainLayout;
+import com.qnenet.quickneasy.views.MainLayout;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Paragraph;

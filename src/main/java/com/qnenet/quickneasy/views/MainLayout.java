@@ -1,7 +1,7 @@
-package com.qnenet.views;
+package com.qnenet.quickneasy.views;
 
-import com.qnenet.views.empty.EmptyView;
-import com.qnenet.views.helloworld.HelloWorldView;
+import com.qnenet.quickneasy.views.empty.EmptyView;
+import com.qnenet.quickneasy.views.helloworld.HelloWorldView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;

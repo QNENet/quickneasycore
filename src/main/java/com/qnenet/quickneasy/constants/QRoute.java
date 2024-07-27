@@ -4,7 +4,7 @@ public class QRoute {
 
     // public static final String WELCOME = "";
     public static final String PUBLIC_HOME = "PublicHome";
-    public static final String LOGIN = "";
+    public static final String LOGIN = "login";
     public static final String SITE_USERS = "SiteUsers";
     public static final String SETUP1 = "Setup1";
     public static final String SETUP2 = "Setup2";
